@@ -12,13 +12,16 @@
         <tr> 
             <td> </td> 
            <td>  <p> Posted on <i>June, 13, 2019 /</i> posted in <a href="#"> </a> No-Bake Recipes</p> </td> 
-           <td> <a href="https://youtube.com" target="blank" text-align:right;> Watch full video on youtube!</a> </td> 
+           <td> <a href="https://youtube.com" target="blank" title="Watch full video on youtube!" text-align:right;> Youtube </a> </td>  
+           <td> <a href="#Order"> Orders </a></td>
         </tr>
         <table> 
         <tr> 
-            <td> <img src="s1.jpg" alt="cookies" width="250px"> </td>
-            <td> <img src="s2.jpg" alt="cookies with whipping cream" width="250px"></td>
-            <td> <img src="s3.jpg" alt="cookies in the pan " width="250px"></td>
+            <td> 
+             <img src="s1.jpg" alt="cookies" width="250px"> 
+             <img src="s2.jpg" alt="cookies with whipping cream" width="250px">
+             <img src="s3.jpg" alt="cookies in the pan " width="250px">
+            </td>
         </tr>
         </table>
         <p> <strong> Tiramisu </strong> is a timeless no-bake Italian dessert combining espresso-dipped ladyfingers and a creamy lightly sweetened mascarpone cream. This recipe is from the late Maida Heatter and is easily the best homemade tiramisu recipe that I’ve ever tried.</p> 
@@ -54,6 +57,31 @@
         <dd> This particular tiramisu recipe yields a large volume and the pan will be very full. Make sure your pan is large enough. I recommend a 9×13 inch dish with at least a 12-14 cup capacity. This 4 quart dish is wonderful too.</dd> <br> 
 
     </dl>
+    <h3 id="Order"> <mark>Shipping information </mark></h3>
+    <form> 
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"min="3"  required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"> <br>
+        <label for="city">City:</label> <br> 
+        <input type="text" id="city" name="city"> <br>
+        <label for="Number"> Phone number:</label>  <br>
+        <input type="tel" id="Number" required/> <br>
+        
+        <label for="email"> Email address:</label> <br>
+        <input type="email" id="email"/> <br>
+        <label for="quan">Quantity:</label><br>
+        <input type="text" id="quan" name="quanitity" placeholder="1 piece"/> <br> 
+        <label for="date"> Expected Delivery Date:</label> <br> 
+        <input type="date" id="date"/> <br> 
+        <textarea name="message" name="Write down your special preferences" rows="10" cols="30"> </textarea> <br>
+            <input type="submit" value="Submit"/>  
+            <input type="reset" />
+     </form>
+     <p> Listen to the recipe while driving</p>
+     <audio controls autoplay src="audio.mp4" >  </audio>
+     <p>Watch the original video </p><video controls autoplay src="video.mp4" width="400px"> </video>
+     
     </table>
 </body>
 </html>
